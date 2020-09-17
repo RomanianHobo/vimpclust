@@ -1,0 +1,31 @@
+Package: vimpclust
+Type: Package
+Title: Variable Importance in Clustering
+Version: 0.1.0
+Authors@R: c(person(given = "Alex",
+           family = "Mourer",
+           role = "aut",
+           email = "mourer.alex@gmail.com"),
+    person(given = "Marie",
+           family = "Chavent",
+           role = c("aut", "ths"),
+           email = "marie.chavent@u-bordeaux.fr"),
+    person(given = "Madalina",
+           family = "Olteanu",
+           role = c("aut", "ths", "cre"),
+           email = "madalina.olteanu@dauphine.psl.eu"))
+Description: Methods related to sparse clustering and variable importance in clustering. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: PCAmixdata, ggplot2, Polychrome, mclust, rlang
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr, rmarkdown
+NeedsCompilation: no
+Packaged: 2020-09-17 12:58:31 UTC; administrateur
+Author: Alex Mourer [aut],
+  Marie Chavent [aut, ths],
+  Madalina Olteanu [aut, ths, cre]
+Maintainer: Madalina Olteanu <madalina.olteanu@dauphine.psl.eu>
+Depends: R (>= 3.5.0)
